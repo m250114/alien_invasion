@@ -45,7 +45,7 @@ class Settings:
     from settings import Settings
     self.settings=Settings()
 
-    self.screen.fill(self.settigns.bg_color)
+    self.screen.fill(self.settings.bg_color)
 
 
 
