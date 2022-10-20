@@ -47,6 +47,10 @@ class Settings:
 
     self.screen.fill(self.settings.bg_color)
 
+from ship import Ship
+
+self.ship= Ship(self)
+self.ship.blitme()
 
 
 
