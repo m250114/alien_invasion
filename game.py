@@ -32,17 +32,7 @@ if __name__== '__main__':
     #redraw the screen during each pass through the loop.
     self.screen.fill(self.bg_color)
 
-class Settings:
-    """A class to store all settings for alien invasions"""
-
-    def ___init___(self):
-        """Initialize the game's settings"""
-        #screen settings
-        self.screen_width=1200
-        self.screen_height=800
-        self.bg_color=(230,230,230)
-
-    from settings import Settings
+from settings import Settings
     self.settings=Settings()
 
     self.screen.fill(self.settings.bg_color)
