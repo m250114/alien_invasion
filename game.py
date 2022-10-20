@@ -33,9 +33,8 @@ if __name__== '__main__':
     self.screen.fill(self.bg_color)
 
 from settings import Settings
-    self.settings=Settings()
-
-    self.screen.fill(self.settings.bg_color)
+self.settings=Settings()
+self.screen.fill(self.settings.bg_color)
 
 from ship import Ship
 
